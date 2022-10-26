@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBox", "WebBox\WebBox.csproj", "{C22361F6-2778-4C49-BEA8-CF300CA1A3AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22361F6-2778-4C49-BEA8-CF300CA1A3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22361F6-2778-4C49-BEA8-CF300CA1A3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22361F6-2778-4C49-BEA8-CF300CA1A3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22361F6-2778-4C49-BEA8-CF300CA1A3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EE958DE-C73D-4B33-AE53-7B0D34FC3E82}
+	EndGlobalSection
+EndGlobal
