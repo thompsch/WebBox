@@ -22,12 +22,6 @@ namespace WebBox
                 webView.Dispose();
                 webView = null;
             }
-
-            if (webView != null)
-            {
-                webView.Dispose();
-                webView = null;
-            }
         }
     }
 }

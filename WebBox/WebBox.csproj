@@ -55,17 +55,17 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-128%402x.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-256%402x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\AppIcon-512%402x.png" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cal32.jpeg" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cal128.jpg" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cal16.jpeg" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cal32 2.jpeg" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\cal128 1.jpg" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon16.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon256.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon64.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon32.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon128.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon32 1.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\calendar_icon256 1.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
