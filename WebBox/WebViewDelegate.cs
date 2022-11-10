@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using ObjCRuntime;
 using WebKit;
@@ -17,9 +18,10 @@ namespace WebBox
             WKNavigationAction navigationAction,
             Action<WKNavigationActionPolicy> decisionHandler)
         {
-            if (navigationAction.Request.Url.ToString().Contains("https://www.google.com/url?q"))
+            var url = navigationAction.Request.Url.ToString();
+            if (!Links.ExternalLinks.Any(l => url.Contains(l)))
             {
-                var url = navigationAction.Request.Url.ToString();
+
                 if (url.Contains("http"))
                 {
                     try
