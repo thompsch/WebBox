@@ -19,7 +19,7 @@ namespace WebBox
             Action<WKNavigationActionPolicy> decisionHandler)
         {
             var url = navigationAction.Request.Url.ToString();
-            if (!Links.ExternalLinks.Any(l => url.Contains(l)))
+            if (!Links.InternalLinks.Any(l => url.Contains(l)))
             {
 
                 if (url.Contains("http"))

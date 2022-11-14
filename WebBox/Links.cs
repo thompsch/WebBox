@@ -7,7 +7,7 @@ namespace WebBox
     {
         // Some links (for auth) need to be run internally, not in a new window
         // but we want all other links to open externally.
-        public static IEnumerable<String> ExternalLinks = new List<string>()
+        public static IEnumerable<String> InternalLinks = new List<string>()
         {
             "accounts.google",
             "calendar.google",
