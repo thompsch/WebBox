@@ -9,6 +9,7 @@ namespace WebBox
         // but we want all other links to open externally.
         public static IEnumerable<String> InternalLinks = new List<string>()
         {
+            "10gen.com/acs",
             "accounts.google",
             "calendar.google",
             "okta",
